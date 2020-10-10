@@ -18,3 +18,14 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+# Setup Dockerfile and Manipulate Dockerfile
+
+Manipulate Docker Container
+   
+  * Start docker-compose  `docker-compose up -d`
+  * Stop docker-compse `docker-compose stop`
+  * Login docker-compose `docker exec -it {container-id} bash` or `docker-compose ` or `docker-compose exec web /bin/bash`
+  * Check docker-compose status `docker-compose ps`
+  * Delete docker-compose `docker-compose down`
+
