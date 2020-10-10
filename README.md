@@ -26,7 +26,7 @@ Manipulate Docker Container
    
   * Start docker-compose  `docker-compose up -d`
   * Stop docker-compse `docker-compose stop`
-  * Login docker-compose `docker exec -it {container-id} bash` or `docker-compose ` or `docker-compose exec web /bin/bash`
+  * Login docker-compose `docker exec -it {container-id} bash` or  `docker-compose exec web /bin/bash`
   * Check docker-compose status `docker-compose ps`
   * Delete docker-compose `docker-compose down`
 
