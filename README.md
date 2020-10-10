@@ -1,6 +1,7 @@
 # MyApp
 
 To start your Phoenix server:
+To start your Docker server
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
